@@ -1,0 +1,26 @@
+.watch-icon {
+  width: 2vw;
+  height: 6vh;
+}
+
+form input[type="email"] {
+  width: 25vw;
+}
+
+.watch-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#header {
+  margin: 10vh;
+}
+
+@media screen and (max-width: 800px) {
+  .watch-icon {
+    width: 4vw;
+    height: 12vh;
+  }
+}
